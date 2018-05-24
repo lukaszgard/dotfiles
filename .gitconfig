@@ -15,3 +15,6 @@
 	br = branch
 	diff = diff --word-diff
 	dc = diff --cached
+[user]
+	email = garjack555@gmail.com
+	name = lukaszgard
