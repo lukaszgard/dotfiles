@@ -2,7 +2,10 @@
 	ls = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=format:'%F %T'
 	ll = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat --date=format:'%F %T'
 	a = add
+
 	pl = pull
+	p = push
+
 	st = status
 	cp = cherry-pick
 	cl = clone
