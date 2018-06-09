@@ -18,6 +18,8 @@
 	br = branch
 	diff = diff --word-diff
 	dc = diff --cached
+
+	che = cherry -v
 [user]
 	email = garjack555@gmail.com
 	name = lukaszgard
