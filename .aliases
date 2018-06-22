@@ -1,3 +1,5 @@
 alias ls='ls -l'
 alias g='grep'
 alias wc='wc -l'
+alias en='trans en:pl '
+alias pl='trans pl:en '
