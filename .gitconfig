@@ -21,5 +21,15 @@
 
 	che = cherry -v
 [user]
-	email = garjack555@gmail.com
-	name = lukaszgard
+	email = lukaszgardon555@gmail.com
+	name = Łukasz Gardoń
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[sendemail]
+	smtpserver = smtp.gmail.com
+	smtpserverport = 587
+	smtpencryption = tls
+	smtpuser = lukaszgardon555
