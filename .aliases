@@ -6,3 +6,4 @@ alias pl='trans pl:en '
 alias f='find '
 # dummy test line
 alias poky-docker='docker run -ti -v ~/git-stuff/poky/:/home/yoctouser/poky/ -v ~/yocto-stuff/:/home/build/ gmacario/build-yocto'
+test line
